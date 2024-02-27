@@ -35,5 +35,3 @@ prompt = ChatPromptTemplate.from_template("""Answer the following question based
 Question: {input}""")
 
 document_chain = create_stuff_documents_chain(llm, prompt)
-
-
